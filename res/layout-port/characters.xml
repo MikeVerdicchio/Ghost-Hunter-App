@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graveyard" >
+
+    <ImageButton
+        android:contentDescription="@+id/logo"
+        android:id="@+id/zomb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/zombiee" 
+        android:onClick="startGameZ"
+        />
+    <ImageButton
+        android:contentDescription="@+id/logo"
+        android:id="@+id/skel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/zomb"
+        android:src="@drawable/skeleton"
+        android:onClick="startGameS" 
+        />
+    <ImageButton
+        android:contentDescription="@+id/logo"
+        android:id="@+id/wiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/zomb"
+        android:src="@drawable/wizard"
+        android:onClick="startGameW" 
+        />    
+</RelativeLayout>
