@@ -16,4 +16,4 @@ The developers are:
 ---
 
 ### Forking this Repo
-Please feel free to fork this repository and make any changes that are seen fit, just please don't forget to give credit to the original developers below. Also, please don't forget to create a pull request so your changes can be spread.
+Please feel free to fork this repository and make any changes that are seen fit, just please don't forget to give credit to the original developers above. Also, please don't forget to create a pull request so your changes can be spread.
